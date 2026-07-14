@@ -40,13 +40,19 @@ python check_setup.py
 
 You should see `ALL GOOD` at the end.
 
-## 3. Check Jupyter starts
+## 3. Run the notebook
+
+Open `hello.ipynb` in your editor and run the cell (Shift+Enter). You should see `ALL GOOD`.
+
+**Use the venv kernel:** whichever IDE you use (VS Code, Cursor, PyCharm, etc.), make sure the notebook is using the Jupyter kernel / Python interpreter from the `.venv` you created above — not your system Python. On macOS/Linux that's typically `.venv/bin/python`; on Windows, `.venv\Scripts\python.exe`. If it doesn't appear in the kernel list, use "Select Kernel" / "Select Python Interpreter" and browse to that path.
+
+Alternatively, from the terminal (with `.venv` activated):
 
 ```bash
 jupyter lab hello.ipynb
 ```
 
-Run the cell (Shift+Enter) — it should print `ALL GOOD` too. Then you're done.
+Run the cell there too — it should also print `ALL GOOD`. Then you're done.
 
 **Anything red or broken?** Reply to our email with the error message and your OS —
 we'll sort it out before the day.
