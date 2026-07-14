@@ -57,5 +57,12 @@ Run the cell there too — it should also print `ALL GOOD`. Then you're done.
 **Anything red or broken?** Reply to our email with the error message and your OS —
 we'll sort it out before the day.
 
+**If you want to commit anything** (here or in the exercise repo): `main` is protected —
+create your own branch first, named `candidat_<yourname>`:
+
+```bash
+git checkout -b candidat_yourname
+```
+
 At the interview you'll receive a link to a small repo with the exercise; it uses exactly
 this stack (Python + DuckDB + SQL in a Jupyter notebook), so nothing new to install.
