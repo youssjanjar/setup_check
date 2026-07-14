@@ -2,3 +2,4 @@ disputes.duckdb
 .venv/
 .ipynb_checkpoints/
 __pycache__/
+.*
