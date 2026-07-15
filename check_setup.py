@@ -1,4 +1,4 @@
-"""Environment check for the DotWorld data engineering interview.
+"""Environment check for the data engineering interview.
 
 Run: python check_setup.py
 If the last line says ALL GOOD, you're ready for the interview.

@@ -1,4 +1,4 @@
-# DotWorld — interview environment check
+# Interview environment check
 
 Hi! Before our technical interview, please make sure your machine can run the tools we'll
 use live. This takes ~5 minutes. **Please do this a few days ahead**, so if anything fails
